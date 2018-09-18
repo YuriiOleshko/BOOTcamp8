@@ -1,0 +1,14 @@
+@import url(style2.css);
+.item1{
+    margin-top: 245px;
+    text-align: center;
+}
+.item2{
+    margin-top: 40px;
+    text-align: center; 
+}
+.spis{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+}
