@@ -1,0 +1,46 @@
+.main{
+    margin: -35px 150px 75px 150px;
+}
+.main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.table{
+    width: 420px;
+    float: left;
+    padding: 135px 30px 0 30px;
+}
+.font{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #d9d6ce;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-weight: normal;
+}
+.fonth{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    line-height: 45px;
+    font-weight: normal;
+}
+.fontp{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #777777;
+    /* line-height: 45px; */
+
+
+}
+.bottom{
+    text-align: center;
+    width: 165px;
+    border: 1px solid grey;
+    padding: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #777777;
+    margin: auto;
+}
