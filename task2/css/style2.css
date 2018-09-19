@@ -1,0 +1,67 @@
+@import url(style3.css);
+.main{
+    width: 1366px;
+    
+    /* margin: 145px 45px 0 45px; */
+    
+}
+.section{
+    margin: 0;
+    padding: 0;
+}
+.section::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+.bg1{
+    width: 683px;
+    height: 560px;
+    background: #f6f6f6;
+    float: left;
+}
+.bg2{width: 683px;
+    height: 560px;
+    background:pink;
+    float: left;
+}
+.ptxt{
+    width: 440px;
+    margin-top: 35px;
+    margin: 145px 45px 0 45px;
+    
+}
+.outline{
+    margin-top: 35px;
+}
+.item{
+    list-style-type: none ;
+    line-height: 20px;
+}
+.but{
+    /* padding-top: 155px ; */
+    margin: 45px 45px 45px 45px;
+
+}
+.but-item{
+    float: left;
+    text-transform: uppercase;
+}
+.but-item1{
+    float: right;
+    text-transform: uppercase;
+   
+}
+.but::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imag-main1{
+    float: left;
+    margin-left: 520px;
+    margin-top:  -9px;
+  
+}

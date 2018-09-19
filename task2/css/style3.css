@@ -1,0 +1,48 @@
+.footer{
+ height: 285px;   
+ background: wheat;
+ color: white
+ 
+}
+.copfootor{
+   padding: 100px;
+   list-style-type: none;
+   color: white
+}
+.copfootor::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.cop{
+    float: left;
+}
+.tel{
+    padding-left: 245px;
+    float: left;
+    list-style-type: none;
+}
+.tel2{
+    list-style-type: none;
+}
+.social{
+    float: right;
+}
+.cop1{
+    float: left;
+    padding-left: 100px;
+    padding-right: 55px;
+    list-style-type: none;
+}
+.tel1{
+    padding-right: 220px;
+    float: left;
+    list-style-type: none;
+}
+.social1{
+    float: right;
+    list-style-type: none;
+}
+.color{
+    color: white;
+}
