@@ -1,17 +1,20 @@
 .main{
     margin: -35px 150px 75px 150px;
+    /* background-image: url(http://futureteam.world/wp-content/uploads/2017/12/general-night-golden-gate-bridge-hd-wallpapers-golden-gate-bridge-wallpaper-1024x592.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
 .main::after{
     content: "";
     clear: both;
     display: table;
 }
-.table{
+.gallery{
     width: 420px;
     float: left;
     padding: 135px 30px 0 30px;
 }
-.font{
+.string{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     color: #d9d6ce;
@@ -19,14 +22,14 @@
     line-height: 35px;
     font-weight: normal;
 }
-.fonth{
+.title{
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     color: #626262;
     line-height: 45px;
     font-weight: normal;
 }
-.fontp{
+.article{
     font-family: 'Playfair Display', serif;
     font-size: 14px;
     color: #777777;
@@ -43,4 +46,5 @@
     font-size: 14px;
     color: #777777;
     margin: auto;
+    margin-bottom: 100px;
 }

@@ -7,13 +7,24 @@
 }
 body{
     margin: auto;
-    background-image:url(/img/fon.jpg);
+    /* background-image:url(../img/fon.jpg); */
     width: 1366px;
 
 }
 .header{
     margin: 40px 45px 40px 45px;
+    /* width: 1285px; */
+    /* background: #6d6562  */
+
 }
+.outl{
+    background:url(http://www.abc-color.com/image/coloring/figures/001/star/star-picture-color.png);
+    height: 30px;
+    background-repeat:  repeat-x;
+    /* width: 1285px; */
+    background-size: 30px;
+}
+
 .nav-header::after{
     content: "";
     clear: both;
