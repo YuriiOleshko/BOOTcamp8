@@ -1,0 +1,41 @@
+.menu-item{
+    float: left;
+    list-style: none;
+    padding-right:40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0f0101;
+}
+.nav-header{
+width: 1130px;
+ /* margin: 40px 280px 105px 280px; */
+}
+.logo{
+    float: left;
+    font-family:'Roboto', sans-serif ;
+    font-weight:300;
+    color: #555252;
+   font-size: 30px;
+   
+}
+.menu{
+float:right;
+}
+.logo::first-letter{
+    font-weight: bolder;
+    color: #1abc9c;
+}
+.menu-item:hover a{
+    color: #1abc9c;
+}
+.header{
+    margin: 40px 270px 105px 270px;
+}
+a:hover .price {
+    background: #000;
+}
