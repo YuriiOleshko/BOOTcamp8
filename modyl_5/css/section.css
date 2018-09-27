@@ -1,0 +1,119 @@
+.title{
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+position:relative;
+padding-top:100px;
+font-size:48px;
+padding-bottom: 30px;
+}
+
+.title::after{
+content:"";
+position:absolute;
+bottom:0;
+left: 75%;
+width: 10%;
+height:8px;
+margin-left:-30%;
+background:#1abc9c;
+}
+.gallery{
+    display: flex;
+    width: 1120px;
+    justify-content: space-around;
+    list-style: none;
+    margin: auto;
+    margin-top: 80px;
+}
+.section{
+    background: #e9f0fd;
+    padding-bottom: 100px;
+}
+.item-text{
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 10px; */
+    /* padding-left: 5px; */
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    background: black;
+    top: 86%;
+    left: 0;
+    position: absolute;
+    padding: 10px;
+    width: 185px;
+}
+.bgt{
+    left: 204px;
+    background: grey;
+    padding: 10px;
+ 
+    bottom: 0px;
+    position: absolute
+}
+.galleru-img{
+    position: relative ;
+}
+.botton{
+    background: transparent;
+    border: 1px solid black;
+    filter: invert(1);
+    opacity: none;
+ 
+}
+.buy{
+    border: 1px solid black;
+    background: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: auto;
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+   
+.sub{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    margin-bottom: 10px;
+    
+}
+.section-buy{
+    background: rgba(148, 141, 141, 0.4);
+    position: absolute;
+    display: inline-block;
+    padding: 75px 50px 75px 40px;
+    display: none;
+    box-shadow: 0 0 25px rgba(245, 241, 241, 0.5);
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    
+}
+.item-gallery:hover .section-buy{
+    display: inline-block ;
+}
+.align{
+    padding-top: 7px;
+}
+.item-gallery{
+    position: relative;
+}
+.item-gallery:hover .bgt{
+    background: #1abc9c;
+}
+    .item-gallery:hover .item-text{
+    background: #1abc9c;
+}
+.botton:hover {
+    background: rgb(105, 41, 41);
+}
+.buy:hover{
+    background:  #e00a02;
+}
