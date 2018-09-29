@@ -1,0 +1,44 @@
+.logo::first-letter{
+    text-transform: uppercase;
+    color: #9ce3d6;
+}
+header{
+    margin: 0 400px 115px 360px;
+    padding-top:40px; 
+    width: 1366px;
+}
+.nav-header{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    width: 485px;
+    display: flex;
+    justify-content: space-between ;
+
+}
+.nav-item{
+    text-transform: uppercase;
+    list-style: none;
+    font-family: 'Montserrat',sans-serif;
+    font-style: Regular;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.letter{
+    text-transform: uppercase;
+    color: #9ce3d6;
+}
+.nav-item a:hover{
+    color: #f38181;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #f38181;
+}
+.logo{
+    font-family:'Montserrat',sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 900;
+}
