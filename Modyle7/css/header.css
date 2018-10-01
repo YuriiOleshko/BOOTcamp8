@@ -1,0 +1,40 @@
+.nav-menu{
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+    list-style: none;
+    align-items: flex-end;
+}
+.header{
+    width: 940px;
+   
+    margin: auto;
+    margin-bottom: 125px;
+}
+.nav-header{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+
+}
+.item-nav{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.logo>a{
+    text-transform: capitalize;
+    font-family: 'wisdom_scriptregular',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px; 
+    color: #fed136;
+}
+.item-nav>a:hover{
+    color: #fed136;
+}
