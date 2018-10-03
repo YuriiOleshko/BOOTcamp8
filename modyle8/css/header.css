@@ -1,0 +1,168 @@
+.header{
+    width: 320px;
+    margin: auto;
+    background: url(../img/Vector\ Smart\ Object@1X.png), rgba(2, 2, 0, 0.527);
+    background-repeat: no-repeat;
+    padding-bottom: 65px;
+}
+.nav-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.nav-header-menu{
+    padding-top: 31px;
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 0;
+}
+.item-nav{
+  
+    width: 90px;
+    border-radius: 50px;
+    padding: 10px 19px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+}
+
+.logo{
+    order: 1;
+    margin-top: 100px;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700
+}
+.title{
+    width: 276px;
+    font-size: 32px;
+    text-transform:capitalize;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 19px;
+    margin-top: 38px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+}
+.sub-title{
+    font-size: 20px;
+color: #ffffff;
+text-align: center;
+margin: auto;
+width:217px;
+font-family: 'Roboto';
+font-style: light;
+font-weight: 300;
+}
+.buttom{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 44px;
+    border-radius: 50px;
+    margin: 19px 21px;
+    display: block;
+    background: red;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+   
+}
+.item-nav:hover {
+    border: 2px solid #ffffff;
+}
+@media(min-width:766px){
+    .header{
+        width: 768px;
+        margin: auto;
+        background: url(../img/Vector\ Smart\ Object@1X\ \(1\).png), rgba(2, 2, 0, 0.527);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-bottom: 180px;
+    }
+    .nav-header{
+        width: 669px;
+        flex-direction: row;
+        padding-top: 43px;
+        margin: auto;
+        
+    }
+    .logo{
+        order: 0;
+        margin:0;
+        font-size: 24px;
+        color: #ffffff;
+        text-align: center;
+}
+    .nav-header-menu{
+        margin: 0;
+        padding: 0;
+    }
+    .title{
+        font-size: 52px;
+        margin-top: 146px;
+        width: 477px;
+    }
+    .sub-title{
+        font-size: 26px;
+        width:398px;
+    }
+   .buttom{
+        margin: 19px 245px;
+        display: inline-block;
+   }
+}
+@media(min-width:1320px){
+    .header{
+        width: 1320px;
+        margin: auto;
+        background: url(../img/Vector\ Smart\ Object@1X\ \(1\).png), rgba(2, 2, 0, 0.527);
+        background-repeat: no-repeat;
+       
+        padding-bottom: 180px;
+    }
+    .nav-header{
+        width: 850px;
+        flex-direction: row;
+        padding-top: 43px;
+        margin: auto;
+        
+    }
+    .logo{
+        order: 0;
+        margin:0;
+        font-size: 24px;
+        color: #ffffff;
+        text-align: center;
+}
+    .nav-header-menu{
+        margin: 0;
+        padding: 0;
+    }
+    .title{
+        font-size: 52px;
+        margin-top: 146px;
+        width: 477px;
+    }
+    .sub-title{
+        font-size: 26px;
+        width:450px;
+    }
+   .buttom{
+        margin: 19px 39%;
+        display: inline-block;
+   }
+}

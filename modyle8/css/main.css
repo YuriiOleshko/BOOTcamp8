@@ -1,0 +1,133 @@
+.main{
+width: 320px;
+margin: auto;
+margin-top: 68px;
+}
+.team-title{
+font-size: 26px;
+color: rgba(51, 51, 51, 255);
+text-align: center;
+margin: 3%;
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 700;
+}
+.foto{
+    position: relative;
+    width: 230px;
+    margin: auto;
+}
+.foto::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    /* background-image: url(../img/Shape-battle.png); */
+    width: 40px;
+    height: 40px;
+    right: 45px;
+}
+ .shape::after  {
+    background-image: url(../img/Shape-battle.png); 
+ } 
+ .cup::after{
+     background-image: url(../img/Shape-cup.png);
+ }
+ .sam::after{
+     background-image: url(../img/Shape-plane.png);
+ }
+ .tel::after{
+     background-image: url(../img/Shape-tv.png);
+ }
+.item-foto{
+    margin: auto;
+    border-radius: 65px;
+    display: block;
+    position: relative;
+}
+.item-text{
+    font-size: 17px;
+color: rgba(102, 102, 102, 255);
+text-align: center;
+margin: 15px;
+font-family: 'Roboto';
+font-style: light;
+font-weight: 300;
+
+}
+.team-subtitle{
+    font-size: 17px;
+    font-style: 900;
+color: rgba(51, 51, 51, 255);
+text-align: center;
+margin: 15px;
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 900;
+}
+.submit{
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 52px;
+    border-radius: 50px;
+    margin: 19px 21px;
+    display: block;
+   color: red;
+   border: 2px solid red;
+   font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+}
+@media(min-width:766px){
+    .main{
+        width: 766px;
+        margin: auto;
+        margin-top: 68px;
+    }
+    .contact{
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .tab{
+        display: flex;
+    flex-direction: column;
+    width: 230px;
+    }
+    .order{
+        order: 1;
+    }
+    .submit{
+        display: inline-block;
+        margin: 19px 245px;
+    }
+}
+@media(min-width:1320px){
+    .main{
+        width: 1320px;
+        margin: auto;
+        margin-top: 68px;
+    }
+    .contact{
+        display: flex;
+        width: 932px;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .tab{
+        display: flex;
+    flex-direction: column;
+    width: 220px;
+    }
+    .order{
+        order: 1;
+    }
+    .submit{
+        display: inline-block;
+        margin: 19px 39%;
+    }
+}
+

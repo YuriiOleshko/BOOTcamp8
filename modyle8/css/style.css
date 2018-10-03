@@ -1,0 +1,14 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto:300,400,900');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+li{
+    list-style: none;
+}
