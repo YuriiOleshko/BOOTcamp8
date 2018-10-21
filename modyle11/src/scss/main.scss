@@ -1,0 +1,67 @@
+.main{
+  width: 1920px;
+}
+
+.gallery{
+  width: 1920px;
+
+  &-title{
+    text-align: center;
+    padding-top: 44px;
+    @include Kaushan-Script(26px);
+  }
+
+  &-subtitle{
+    text-align: center;
+    position: relative;
+    @include Monserat(36px,normal,700);
+    margin-bottom: 80px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 77%;
+      width: 5%;
+      height: 3px;
+      margin-left: -30%;
+      background: #f38181;
+      top: 80px;
+    }
+  }
+
+  &-table{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    margin: auto;
+    flex-wrap: wrap;
+
+    &__item{
+      width: 260px;
+      margin-left: 65px;
+      margin-bottom: 71px;
+      padding-left: 59px;
+      list-style: none;
+      position: relative;
+
+      &__title{
+        @include Monserat(16px,normal,700);
+        text-align: left; 
+        text-transform: uppercase;
+      }
+      
+      &__subtitle{
+        @include Roboto(14px,normal,300);
+      }
+
+      &__svg{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 0;
+        top: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.footer{
+  width: 1200px;
+  border-top: 1px solid gray;
+  margin: 0 400px 30px 360px;
+  margin-top: 85px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+
+  &-copy{
+    @include Monserat(14px,normal,400);
+    
+    &--red{
+      color: $pink;
+    }
+  }
+
+  &-input{
+    height: 38px;
+    border: 1px solid gainsboro;
+    margin-right: -4px;
+    @include Roboto(16px,italic,300);
+    color: #d2d2d2;
+  }
+
+  &-submit{
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    background: #95e1d3;
+    color: $white;
+    border: none;
+    @include Monserat(14px,normal,900);
+    
+  }
+}

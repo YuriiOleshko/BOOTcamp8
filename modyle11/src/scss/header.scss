@@ -1,0 +1,97 @@
+
+.header{
+  width: 1920px;
+  background-image: linear-gradient(rgba(232, 129, 130,0.6),rgba(240, 217, 138,0.6)),url(../img/eagle.png);
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx){
+    background-image: linear-gradient(rgba(232, 129, 130,0.6),rgba(240, 217, 138,0.6)),url(../img/eagle@2X.png);
+  }
+  padding-bottom: 160px ;
+
+  &-nav{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo{
+      text-transform: capitalize;
+      @include Monserat(36px,normal,700);
+
+      &--anchor{
+        color: #ffff;
+      }
+
+      &--letter{
+        text-transform: uppercase;
+        color: #ffff;
+      }
+    }
+  }
+
+  &-menu{
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item{
+      list-style: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      align-self: flex-end;
+      @include Monserat(16px,normal,400);
+      
+    }
+    
+    &__anchor{
+      color: #ffff;
+    }
+
+    &__anchor--nohover{
+      pointer-events: none;
+     
+    }
+
+    &__anchor:hover {
+      color: #fce38a;
+      padding-bottom: 12px;      
+      border-bottom: 3px solid #fce38a;
+    }
+
+    &__svg{
+      width: 20px;
+      height: 20px;
+      fill: #ffff;
+    }
+  }
+
+  &-title{
+    width: 802px;
+    margin: auto;
+
+    &__title{
+      text-align: center;
+      @include Kaushan-Script(74px);
+      color: white;
+    }
+
+    &__subtitle{
+      text-align: center;
+      @include Monserat(150px,normal,700);
+      margin: 0;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    &__button{
+      background: none;
+      border: 2px solid white;
+      @include Monserat(16px,normal,700);
+      color: white;
+      padding: 15px 32px;
+      display: block;
+      margin: 124px auto;
+      
+    }
+  }
+
+}

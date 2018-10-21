@@ -1,0 +1,140 @@
+.team{
+  width: 1920px;
+  
+  &-title{
+    text-align: center;
+    padding-top: 44px;
+    @include Kaushan-Script(26px);
+  }
+  
+  &-subtitle{
+    text-align: center;
+    position: relative;
+    @include Monserat(36px,normal,700);
+    margin-bottom: 80px;
+  
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 77%;
+      width: 5%;
+      height: 3px;
+      margin-left: -30%;
+      background: $pink;
+      top: 80px;
+    }
+  }
+
+  &-suptitle{
+    text-align: center;
+    @include Roboto(17px,normal,300);
+    width: 954px;
+    margin: auto;
+    color: rgb(153, 153, 153);
+  }
+   
+
+
+  &-gallery{
+    width: 1213px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    list-style: none;
+    margin-top: 90px;
+    
+
+    
+    &__img{
+      width: 383px;
+      height: 473px;
+
+
+    }
+
+    &__title{
+      @include Monserat(16px,normal,700);
+      text-align: center;
+    }
+
+    &__subtitle{
+      @include Roboto(17px,italic,300);
+      text-align: center;
+      color: rgb(153, 153, 153);
+    }
+    
+    &__item{
+      position: relative;
+       
+      &:hover .team-gallery__submenu {
+        display: block;
+      }
+
+      &:hover{
+        transform: translate(-10px,-10px);
+        transition-duration: 200ms;
+        transition-timing-function: linear;
+      }
+    }
+
+    &__submenu{
+      display: none;
+      background-image: linear-gradient(rgba(232, 129, 130,0.6),rgba(240, 217, 138,0.6));
+      @media (min-resolution: 192dpi), (min-resolution: 2dppx){
+        background-image: linear-gradient(rgba(232, 129, 130,0.6),rgba(240, 217, 138,0.6));
+       
+      }
+      padding: 209px 80px;
+      position: absolute;
+      top: 49%;
+      left: 50%;
+      transform: translate(-50%,-58%);
+      box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+
+      &-menu{
+        display: flex;
+        justify-content: center;
+        width: 225px;
+        padding: 0;
+        
+      
+
+        &--item{
+          list-style: none;
+          background: $orange;
+          width: 56px;
+          height: 56px;
+                     
+          &:hover #icon-twitter{
+            fill: #fff;
+          
+          }
+
+          &:hover{
+            background: $pink;
+            fill: #fff;
+          }
+      
+          &__svg{
+            width: 27px;
+            height: 26px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+           
+            &:hover #icon-twitter{
+              fill: #fff;
+            
+            }
+          }
+        }
+        
+        &__item:hover{
+          background: rgb(149,225,211);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+
+
+@mixin Monserat($size,$style,$number){
+  font-family: 'Montserrat';
+  font-style: $style;
+  font-weight: $number;
+  font-size: $size;
+}
+
+@mixin Kaushan-Script($size){
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $size;
+}
+
+@mixin Roboto($size,$style,$number){
+  font-family: 'Roboto';
+  font-style: $style;
+  font-weight: $number;
+  font-size: $size;
+}
