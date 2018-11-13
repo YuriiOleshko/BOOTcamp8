@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.preview{
+    display: flex;
+    margin: auto;
+    width: 800px;
+    
+}
+.fullview{
+    margin: auto;
+    width: 800px; 
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(235,29,235,0.94);
+-moz-box-shadow: 0px 0px 16px 6px rgba(235,29,235,0.94);
+box-shadow: 0px 0px 16px 6px rgba(235,29,235,0.94);
+margin-bottom: 20px;
+
+}
+li{
+    width: 180px;
+    border: 2px solid transparent ;
+    box-shadow: 0px 0px 16px 6px rgba(23,39,122,1);
+    
+
+}
+.par{
+    border: 2px solid red ;  
+}
+.big{
+    width: 800px; 
+    height: 400px;
+
+}
+/* li:hover{
+    border: 2px solid red ;
+} */
