@@ -36,8 +36,10 @@ const posts = [
 
 ]
 function createCards(posts){
-    let body  =document.querySelector('body')
-    for (let el of posts){
+    let body  =document.querySelector('body');
+    body.append(createPostCard(posts));
+    function createPostCard(post){
+    for (let el of post){
         let post = document.createElement('div');
         post.classList.add('post')
         body.append(post);
@@ -59,7 +61,8 @@ function createCards(posts){
         button.setAttribute('href',el.link);
         button.textContent="Read more";
         post.append(button)
-
+       
     }
+  }
 }
 createCards(posts)
