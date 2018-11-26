@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+
+}
+li{
+    border: 2px solid blue;
+    padding: 10px;
+    list-style: none;
+    flex-basis:25%;
+    background: rosybrown;
+    text-align: center;
+}
+li:hover{
+    background: white;
+}
+.title{
+    font-size: 36px;
+    font-style: italic;
+    color: burlywood;
+    text-align: center;
+    margin: 40px;
+    text-transform: uppercase;
+}
