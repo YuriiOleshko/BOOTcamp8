@@ -52,18 +52,21 @@ function move (){
     console.log(event.target);
   
    if(   arr1.includes(event.target.nextElementSibling) && event.target.nextElementSibling.textContent==''){
-   
-    console.log(event.target.nextElementSibling.textContent);
+    if(arr1.indexOf(event.target.nextElementSibling)%4==0 && event.target.nextElementSibling.textContent===""){
+        console.log('what');
+}
+    // console.log(event.target.nextElementSibling.textContent);
 
-    event.target.nextElementSibling.textContent=event.target.textContent
-    event.target.textContent ='';
-    }else if ( arr1.includes(event.target.previousElementSibling) && event.target.previousElementSibling.textContent==="" ){
-       if(arr1.indexOf(event.target.nextElementSibling)%4==0 && !event.target.previousElementSibling.textContent===""){
-            console.log('what');
-  }
+    else {
+        event.target.nextElementSibling.textContent=event.target.textContent
+    event.target.textContent ='';}}
+    else if ( arr1.includes(event.target.previousElementSibling) && event.target.previousElementSibling.textContent==="" ){
+//        if(arr1.indexOf(event.target.nextElementSibling)%4==0 && !event.target.previousElementSibling.textContent===""){
+//             console.log('what');
+//   }
         
-        else {event.target.previousElementSibling.textContent=event.target.textContent
-            event.target.textContent ='';}}
+        event.target.previousElementSibling.textContent=event.target.textContent
+            event.target.textContent ='';}
     else if ( arr1[(arr1.indexOf(event.target.nextElementSibling))+3]&& arr1[(arr1.indexOf(event.target.nextElementSibling)+3)].textContent===""){
         arr1[(arr1.indexOf(event.target.nextElementSibling)+3)].textContent=event.target.textContent;
          event.target.textContent ='';
