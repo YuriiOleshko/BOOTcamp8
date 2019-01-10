@@ -13,7 +13,7 @@
   border: 1px solid #ffffff;
   margin-left: 5.3rem;
   margin-top: 2rem;
-  font-family: NotoSans;
+  font-family:  'NotoSans',sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #ffffff;
@@ -37,7 +37,7 @@ height: 20px;
     margin-left: 5.3rem;
 
 }
-.footer_ancor{  font-family: NotoSans;
+.footer_ancor{  font-family:  NotoSans,sans-serif;
     font-size: 14px;
     line-height: 1.41;
     color: #ffffff;
@@ -46,7 +46,7 @@ height: 20px;
     width: 104px;
     height: 23px;
     opacity: 0.5;
-    font-family: NotoSans;
+    font-family:  NotoSans,sans-serif;
     font-size: 14px;
     line-height: 1.41;
     letter-spacing: normal;

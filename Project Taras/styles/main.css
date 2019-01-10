@@ -1,5 +1,5 @@
 .sectionOne_title{
-    font-family: NotoSans;
+    font-family: NotoSans,sans-serif;
   font-size: 40px;
   font-weight: bold;
   font-style: normal;
@@ -13,7 +13,7 @@
     margin-left: 0.6rem
 }
 .sectionOne_subtitle{
-    font-family: NotoSans;
+    font-family: NotoSans,sans-serif;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -26,10 +26,10 @@
 display: flex;
 margin-top: 2rem;
 justify-content: space-between;
-margin-bottom: 4.8rem;
+margin-bottom: 75px;
 }
 .title_item{
-    font-family: NotoSans;
+    font-family: NotoSans,sans-serif;
     font-size: 1.9rem;
     font-weight: bold;
     font-style: normal;
@@ -47,7 +47,7 @@ margin-bottom: 4.8rem;
     line-height: normal;
     letter-spacing: normal;
     color: #000000;
-    font-family: NotoSans;
+    font-family:  NotoSans,sans-serif;
 }
 .form_submit{
     width: 355px;
@@ -61,7 +61,7 @@ margin-bottom: 4.8rem;
     padding-left: 5rem;
     width: 190px;
   
-    font-family: NotoSans;
+    font-family:  NotoSans,sans-serif;
     font-size: 1.2rem;
     font-weight: normal;
     font-style: normal;
@@ -81,7 +81,7 @@ form{
   height: 46px;
   border-radius: 6px;
   background-color: #ffffff;
-  font-family: NotoSans;
+  font-family: NotoSans,sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -101,7 +101,7 @@ form{
     margin-left: 3.5rem;
     margin-top:2rem;
     padding-left:  0.7rem;
-    font-family: NotoSans;
+    font-family:  NotoSans,sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -109,9 +109,11 @@ form{
     line-height: normal;
     letter-spacing: normal;
     color: white;
+    border: transparent;
 }
 .sectionTwo{
     background: #ffffff;
+    margin-bottom: 75px;
 
 }
 .sectionTwo_menu{
@@ -121,7 +123,7 @@ form{
     margin-top: 1.8rem;
 }
 .sectionTwo_title{
-    margin-top: 4.8rem;
+    margin-top: 75px;
     width: 279px;
     padding-left: 3rem;
     text-align: center;
@@ -133,7 +135,7 @@ form{
     margin-top: 1.8rem;
     width: 172px;
     height: 44px;
-    font-family: NotoSans;
+    font-family:  NotoSans,sans-serif;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -172,6 +174,7 @@ background:url(../img/icons8-briefcase-64.png);
 
 }.sectionTwo_icon6::before{
     background:url(../img/icons8-world-map-64.png);
+    
 
 }
 .sectionThree{
@@ -194,7 +197,7 @@ background:url(../img/icons8-briefcase-64.png);
 .sectionThree_subTitle{
     width: 233px;
     height: 55px;
-    font-family: NotoSans;
+    font-family: NotoSans,sans-serif;
     font-size: 20px;
     font-weight: bold;
     font-style: normal;
@@ -211,7 +214,7 @@ background:url(../img/icons8-briefcase-64.png);
 .sectionThree_Title{
     width: 244px;
     height: 41px;
-    font-family: NotoSans;
+    font-family: NotoSans,sans-serif;
     font-size: 30px;
     font-weight: normal;
     font-style: normal;
@@ -226,7 +229,7 @@ background:url(../img/icons8-briefcase-64.png);
 .sectionThree_Title_Num{
     width: 111px;
     height: 55px;
-    font-family: NotoSans;
+    font-family: NotoSans,sans-serif;
     font-size: 40px;
     font-weight: bold;
     font-style: normal;
@@ -251,12 +254,12 @@ background:url(../img/icons8-briefcase-64.png);
     background-image: url(../img/kisspng-black-and-white-pattern-ice-snowflakes-5a6.png);
     top:0%;}
     .sectionFour{
-        margin-top: 4.7rem;
+        margin-top: 75px;
     }
     .sectionFour_title{
         width: 295px;
       
-        font-family: NotoSans;
+        font-family:  NotoSans,sans-serif;
         font-size: 20px;
         font-weight: bold;
        
@@ -268,7 +271,7 @@ background:url(../img/icons8-briefcase-64.png);
         width: 275px;
         text-align: center;
         margin-left: 2.8re,;
-        font-family: NotoSans;
+        font-family: NotoSans,sans-serif;
         font-size: 16px;
         font-weight: normal;
         color: #000000;
@@ -291,7 +294,7 @@ background:url(../img/icons8-briefcase-64.png);
 .sectionFour_item_subtitle{
     width: 223px;
     height: 44px;
-    font-family: NotoSans;
+    font-family: NotoSans,sans-serif;
     font-size: 16px;
     font-weight: normal;
     text-align: center;
@@ -304,7 +307,7 @@ background:url(../img/icons8-briefcase-64.png);
 .sectionFour_item_title{
     width: 160px;
     
-    font-family: NotoSans;
+    font-family:  NotoSans,sans-serif;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -312,6 +315,9 @@ background:url(../img/icons8-briefcase-64.png);
     top: 50%;
     left: 50%;
     transform: translate(50%,150%);
+}
+.dop{
+    width: 175px;
 }
 .sectionFour_item_title::before{
     content:"";
@@ -335,9 +341,12 @@ background:url(../img/icons8-briefcase-64.png);
         background-image: url(../img/icons8-books-64\ \(1\).png);
     }   .sectionFour_icon5::before{
         background-image: url(../img/icons8-diploma-64.png);
+        margin-left: -38%;
+        
       
     }   .sectionFour_icon6::before{
         background-image: url(../img/icons8-cinema-64.png);
+      
     }
     /* .imgCardO{ width: 24px;
   height: 24px;}
@@ -348,7 +357,7 @@ background:url(../img/icons8-briefcase-64.png);
   .imgCard{width: 24px;
     height: 24px;}
     .sectionFifeCard{
-        width: 300px;
+        width:  310px;
     
         border-radius: 5px;
         background-color: #ffffff;
@@ -359,7 +368,7 @@ background:url(../img/icons8-briefcase-64.png);
     box-shadow: 2px 15px 0px 7px rgb(248, 248, 248);
     }
     .sectionFife{
-       margin-top:4rem;
+       margin-top:75px;
        background-color: #ffffff  ;
        margin-bottom: 10rem;
     }
@@ -380,7 +389,7 @@ background:url(../img/icons8-briefcase-64.png);
     }
     .sectionFive_desc{
         width: 231px;
-        font-family: NotoSans;
+        font-family:  NotoSans,sans-serif;
         font-size: 18px;
       
         font-weight: normal;
@@ -396,7 +405,7 @@ background:url(../img/icons8-briefcase-64.png);
         padding-left: 7rem;
         margin-bottom: 5rem;
         background-color: #ffffff;
-        font-family: NotoSans;
+        font-family:  NotoSans,sans-serif;
         font-size: 20px;
         font-weight: bold;
         color: #000000;
@@ -406,6 +415,8 @@ background:url(../img/icons8-briefcase-64.png);
         display: inline;
         font-size: 40px;
         font-weight: bold;
+        margin-left: -2rem;
+        padding-right: 1rem;
     }
 .sectionFive_sub{
     display: inline;
@@ -415,7 +426,7 @@ background:url(../img/icons8-briefcase-64.png);
 }
 .sectionFive_date{
     display: inline;
-    font-family: NotoSans;
+    font-family: NotoSans,sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #000000;
@@ -425,7 +436,7 @@ background:url(../img/icons8-briefcase-64.png);
     height: 50px;
     border-radius: 3px;
     background-color: #af2d2d;
-    font-family: NotoSans;
+    font-family:  NotoSans,sans-serif;
   font-size: 14px;
   font-weight: normal;
   border-radius: 10px;
@@ -439,7 +450,7 @@ background:url(../img/icons8-briefcase-64.png);
 .sectionSix_title{
     width: 280px;
     margin-left: 3rem;
-  font-family: NotoSans;
+  font-family:  NotoSans,sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: #000000;
@@ -450,7 +461,7 @@ background:url(../img/icons8-briefcase-64.png);
     width: 300px;
     margin-left: 4rem;
 
-  font-family: NotoSans;
+  font-family:  NotoSans,sans-serif;
   font-size: 16px;
   font-weight: normal;
 margin-bottom: 1rem;
@@ -475,7 +486,7 @@ margin-bottom: 1rem;
      border-radius: 25px;
      text-align: center;
     /* padding: 1rem; */
-  font-family: NotoSans;
+  font-family:  NotoSans,sans-serif;
   font-size: 30px;
   font-weight: normal;
   font-style: normal;
@@ -507,7 +518,7 @@ margin-bottom: 1rem;
 }
 .sectionSevenMain{
     width: 230px;
-    font-family: NotoSans;
+    font-family: NotoSans,sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #000000;
@@ -519,13 +530,14 @@ margin-bottom: 1rem;
   .sectionSeven_point{}
   .sectionSeven_date{} */
   .sectionSeven_price{width: 300px;}
-  .sectionSeven_div{  margin-left: 2rem;
+  .sectionSeven_div{  margin-left: 2.6rem;
 margin-bottom: 2rem;}
 .sectionSeven{
-margin-bottom: 3rem;
+margin-bottom: 75px;
+margin-top: 2rem;
 }
 .form_submitTwo{ width: 355px;
-    height: 353px;
+    height: 380px;
     border-radius: 6px;
     background-color: rgba(97, 205, 222, 0.9);
     box-shadow: -1px -39px 0px -20px rgba(97, 205, 222, 0.4);
@@ -566,15 +578,16 @@ position: absolute;
 .sectionNine_div{
     position: relative;
     margin-top: 2rem;
+    left: 5px;
 }
 .sectionNine{
-    margin-top: 4.8rem;
-    margin-bottom: 7rem;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 .sectionNine_mainTitle{
     width: 85px;
    text-align: center;
-    font-family: NotoSans;
+    font-family:  NotoSans,sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #000000;
@@ -601,7 +614,7 @@ position: absolute;
     .sectionNine_title{
         width: 300px;
        margin: auto;
-        font-family: NotoSans;
+        font-family: NotoSans,sans-serif;
         font-size: 16px;
         font-weight: bold;
         line-height: 1.23;
@@ -611,7 +624,7 @@ position: absolute;
 .sectionNine_date{
     width: 300px;
     margin: auto;
-     font-family: NotoSans;
+     font-family:  NotoSans,sans-serif;
      font-size: 16px;
      font-weight: normal;
      line-height: 1.23;
@@ -622,7 +635,7 @@ position: absolute;
 .sectionNine_date1{
     width: 300px;
     margin: auto;
-     font-family: NotoSans;
+     font-family:  NotoSans,sans-serif;
      font-size: 16px;
      font-weight: normal;
      line-height: 1.23;
@@ -633,7 +646,7 @@ position: absolute;
 .sectionNine_date2{
     width: 300px;
     margin: auto;
-     font-family: NotoSans;
+     font-family: NotoSans,sans-serif;
      font-size: 16px;
      font-weight: normal;
      line-height: 1.23;
