@@ -1,0 +1,36 @@
+.dopSt{
+    width: 375px;
+    height: 671.9px;
+    background-image: linear-gradient( #a6cae4, rgba(196, 196, 196, 0));
+    padding-left: 6rem;
+    padding-top: 7rem;
+}
+.dopSt_h1{
+    width: 206px;
+    /* height: 55px; */
+    font-family: NotoSans;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.dopSt_h2{
+    margin-top: 1rem;
+    width: 193px;
+    height: 44px;
+    font-family: NotoSans;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: #000000;
+}
+.dopSt_a{
+    width: 193px;
+    height: 22px;
+    font-family: NotoSans;
+    font-size: 16px;
+    margin-left: 1rem;
+
+    color: #406fe8;
+    text-align: center;
+}
